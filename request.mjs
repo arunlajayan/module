@@ -7,7 +7,7 @@ function encrypt(data) {
     console.log(`sending ${encrypteddata} to ${url}`);
   }
   
-  module.exports = {
+  export {
     send
   }
   
